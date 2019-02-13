@@ -4,4 +4,88 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
     padding: 0;
+    background-color: #dadada;
+    
 }
+
+header {
+    text-align: center; 
+}
+
+#errors {
+    background-color: cyan;
+    margin-bottom: 20px;
+    padding:20px;
+
+}
+
+
+img {
+    width: 500px;
+    margin: 10px 0 0 0;
+    
+}
+
+.pictures {
+    border-radius: 0px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.row {
+     
+    border-bottom:1px solid black;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    
+}
+
+/* Classes to be applied based on params */
+
+
+/* Class to add border */
+.border {
+    border-radius: 15px;
+    border: 5px solid black;
+}
+
+/* Classes for changing font size */
+
+.small_font {
+    font-size: 10px;
+}
+.medium_font {
+    font-size:15px;
+}
+.large_font {
+    font-size:22px;
+}
+
+/* Classes for Changing Background Color */
+
+.blue_bg {
+    background-color: #053b91;
+}
+
+.red_bg {
+    background-color: #9c0d1b;
+}
+
+.green_bg {
+    background-color: #19681c;
+}
+
+/* Classes for changing text color */
+
+.blue_text {
+    color: #053b91;
+}
+
+.red_text {
+    color: #dc3545;
+}
+
+.green_text {
+    color: #19681c;
+}
+
+
